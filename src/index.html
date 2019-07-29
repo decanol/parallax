@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="screen">
+        <div class="logo">
+            <img src="img/whoarewe.svg" alt="Who we are">
+        </div>
+    </div>
+    <div class="screen">
+        <div class="anime">
+            <div class="back-text">
+                <img src="img/ls-mob.svg" alt="Backgroung text">
+            </div>
+            <div class="back-jp-text">
+                <img src="img/jp-text.svg" alt="Japanese text">
+            </div>
+            <div class="head-img">
+                <img src="img/head.svg" alt="Head">
+            </div>
+            <div class="spray-img">
+                <img src="img/spray.svg" alt="Spray">
+            </div>
+            <div class="smoke-img">
+                <img src="img/smoke.svg" alt="Smoke">
+            </div>
+        </div>
+    </div>
+    <div class="description">
+        <div class="small-text"><p>we are, eah, i said it, we are </p></div>
+        <div class="titles">
+            <h1>artists.</h1>
+            <h1>professionals.</h1>
+            <h1>enthusiasts.</h1>
+        </div>
+        <div class="under-titles">
+            <h4>rebels, for a little</h4>
+        </div>
+        <div class="text">
+            <p>In LiVE SPACE studio we try to make some damn good things.
+                With a high level of quality and easy-going crew LiVE SPACE is conglomerate of people, who love their work.
+                Different cities, united by the passion of creating  something unique.
+                LiVE SPACE is everywhere and ready to make some new novel projects.
+            </p>
+        </div>
+        <div class="pero">
+            <img src="img/pero-icon-about-us.svg" alt="pero"></div>
+    </div>
+    <div class="bottom-menu"></div>
+
+    <script>
+        window.addEventListener('scroll', function (e) {
+            const target = document.querySelector('.back-text');
+            const targetHead = document.querySelector('.head-img');
+            const targetSmoke = document.querySelector('.smoke-img');
+            const targetSpray = document.querySelector('.spray-img');
+
+            // '.head-img'
+
+            var scrolled = window.pageYOffset;
+            var rateBg = scrolled * 0.05;
+            var rateHead = scrolled * 0.04;
+            var rateSmoke = scrolled * -0.05;
+            var rateSpray = scrolled * 0.1;
+
+            target.style.transform = 'translate3d(0px,'+rateBg+'px, 0px)';
+            targetHead.style.transform = 'translate3d(0px,'+rateHead+'px, 0px)';
+            targetSmoke.style.transform = 'translate3d(0px,'+rateSmoke+'px, 0px)';
+            targetSpray.style.transform = 'translate3d(0px,'+rateSpray+'px, 0px)';
+
+        })
+    </script>
+</body>
+</html>
