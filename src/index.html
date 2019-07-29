@@ -54,19 +54,19 @@
     </div>
     <div class="bottom-menu">
         <div class="logo-bottom">
-            <img src="img/LS-logo.svg" alt="Logotype Live Space">
+            <a href="https://twitter.com/livespacestudio" target="_blank"><img src="img/LS-logo.svg" alt="Logotype Live Space"></a>
         </div>
         <div class="menu">
             <ul>
-                <li><a href="">about us</a></li>
+                <li><a href="index.html">about us</a></li>
                 <li><a href="">prices</a></li>
-                <li><a href="">contact us</a></li>
+                <li><a href="contact.html">contact us</a></li>
                 <li><p>EN</p></li>
             </ul>
         </div>
         <div class="links">
-            <a href=""><img src="img/behance-logo.svg" alt="Behance Logotype link"></a>
-            <a href=""><img src="img/instagram.svg" alt="Instagram Logotype link"></a>
+            <a href="https://www.behance.net/" target="_blank"><img src="img/behance-logo.svg" alt="Behance Logotype link"></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="img/instagram.svg" alt="Instagram Logotype link"></a>
         </div>
     </div>
 
@@ -76,19 +76,20 @@
             const targetHead = document.querySelector('.head-img');
             const targetSmoke = document.querySelector('.smoke-img');
             const targetSpray = document.querySelector('.spray-img');
-
-            // '.head-img'
+            const targetJp = document.querySelector('.back-jp-text');
 
             var scrolled = window.pageYOffset;
-            var rateBg = scrolled * 0.05;
+            var rateBg = scrolled * 0.07;
             var rateHead = scrolled * 0.04;
             var rateSmoke = scrolled * -0.05;
-            var rateSpray = scrolled * 0.1;
+            var rateSpray = scrolled * 0.14;
+            var rateJp = scrolled * 0.03;
 
             target.style.transform = 'translate3d(0px,'+rateBg+'px, 0px)';
             targetHead.style.transform = 'translate3d(0px,'+rateHead+'px, 0px)';
             targetSmoke.style.transform = 'translate3d(0px,'+rateSmoke+'px, 0px)';
             targetSpray.style.transform = 'translate3d(0px,'+rateSpray+'px, 0px)';
+            targetJp.style.transform = 'translate3d(0px,'+rateJp+'px, 0px)';
 
         })
     </script>
