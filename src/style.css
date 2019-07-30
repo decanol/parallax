@@ -232,3 +232,8 @@ h1 {
     font-weight: bold;
 }
 
+.contacts {
+    flex-grow: 1;
+    padding-top: 14vh;
+}
+
