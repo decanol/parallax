@@ -69,9 +69,17 @@ h1 {
     width: 18vw;
 }
 
+.pero {
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+    position: absolute;
+    margin-top: 150vh;
+}
+
 .pero img {
     height: 8vh;
-    padding-top: 6vh;
+    z-index: -99;
 }
 
 .screen {
@@ -129,6 +137,7 @@ h1 {
     display: flex;
 
     align-items: center;
+    height: 12vh;
 
     /*background-image: linear-gradient(130deg, #000000 0%, lightcoral 100%);*/
 }
@@ -144,9 +153,19 @@ h1 {
 }
 
 .menu li {
-    margin: 0 3vw;
+    /*margin: 0 3vw;*/
     list-style-type: none;
     float: left;
+    height: 12vh;
+    width: 8vw;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li:hover {
+    background-color: #f32725;
 }
 
 .menu ul {
@@ -163,10 +182,11 @@ h1 {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
-}
-
-.menu a:hover {
-    color: red;
+    height: 12vh;
+    width: 8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .links {
