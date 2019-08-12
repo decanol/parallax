@@ -14,11 +14,6 @@ h1 {
 }
 
 .titles {
-    /*text-align: center;*/
-    /*font-size: 2rem;*/
-    /*letter-spacing: 0.5rem;*/
-    /*font-weight: bold;*/
-
     font-size: 30px;
     letter-spacing: 12px;
     color: #000000;
@@ -48,22 +43,11 @@ h1 {
     font-family: 'basis33', sans-serif;
 }
 
-.description, .text {
-    /*font-size: .8rem;*/
-}
-
 .description {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-
-/*.logo {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    margin: 10vh 0;*/
-/*}*/
 
 .logo img {
     width: 18vw;
@@ -114,7 +98,6 @@ h1 {
 .spray-img {
     z-index: -1;
     margin-right: 32vw;
-    /*margin-bottom: -20vh;*/
 }
 
 .anime {
@@ -127,7 +110,6 @@ h1 {
 }
 
 .bottom-menu {
-    /*height: 14vh;*/
     background-color: black;
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
@@ -138,15 +120,12 @@ h1 {
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
-
     align-items: center;
     height: 12vh;
-
-    /*background-image: linear-gradient(130deg, #000000 0%, lightcoral 100%);*/
 }
 
 .logo-bottom {
-    /*margin-left: 3vw;*/
+
     margin: 1.2vw 0 1.2vw 3vw;
     flex-grow: 1;
 }
@@ -156,12 +135,10 @@ h1 {
 }
 
 .menu li {
-    /*margin: 0 3vw;*/
     list-style-type: none;
     float: left;
     height: 12vh;
     width: 8vw;
-    /*text-align: center;*/
     display: flex;
     justify-content: center;
     align-items: center;
