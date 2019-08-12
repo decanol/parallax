@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7bd4b0c-4345-40bd-8929-b49f8fad1aa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/html/slider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/slider-img/1431980-widescreen-concept-art-wallpapers-1920x1080-for-mac.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/t.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +37,9 @@
     <property name="settings.editor.splitter.proportion" value="0.20847811" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/img" />
       <recent name="$PROJECT_DIR$/src/img/slider-img" />
@@ -87,7 +82,7 @@
       <workItem from="1565090221630" duration="149000" />
       <workItem from="1565167109578" duration="711000" />
       <workItem from="1565175477813" duration="301000" />
-      <workItem from="1565175800572" duration="444000" />
+      <workItem from="1565175800572" duration="851000" />
     </task>
     <servers />
   </component>
