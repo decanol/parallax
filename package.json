@@ -2,7 +2,7 @@
   "name": "parcel-sandbox",
   "version": "1.0.0",
   "description": "Simple Parcel Sandbox",
-  "main": "html/index.html",
+  "main": "src/html/index.html",
   "scripts": {
     "start": "parcel src/html/index.html --open",
     "build": "parcel build index.html"
