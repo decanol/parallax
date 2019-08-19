@@ -114,6 +114,7 @@ h1 {
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     max-width: 100%;
     color: #FFFFFF;
     display: flex;
@@ -187,9 +188,18 @@ h1 {
     height: 12vh;
 }
 
-.links a:hover {
-    background-color: deepskyblue;
-    opacity: .5;
+.links a:hover:nth-last-child(1) {
+    /*background-color: deepskyblue;*/
+    /*opacity: .5;*/
+    /*background-color: rgba(255, 214, 0, 0.8);*/
+
+    background: linear-gradient(38deg, rgba(255,194,0, .4) 0%, rgba(9,9,121, .7) 35%, rgba(255,27,0, .9) 100%);
+}
+
+.links a:hover:nth-last-child(2) {
+    /*background-color: deepskyblue;*/
+    /*opacity: .5;*/
+    background-color: rgba(0, 66, 255, 0.8);
 }
 
 .contacts li {
@@ -264,8 +274,8 @@ h1 {
 }
 
 .language-switch:hover {
-    opacity: .5;
-    background-image: url("../img/uk-flag.png");
+    /*background-image: url("../img/uk-flag.png");*/
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,5 +1,5 @@
 window.addEventListener('scroll', function (awesomeParallax) {
-    const target = document.querySelector('.back-text');
+    const targetBackText = document.querySelector('.back-text');
     const targetHead = document.querySelector('.head-img');
     const targetSmoke = document.querySelector('.smoke-img');
     const targetSpray = document.querySelector('.spray-img');
@@ -14,7 +14,7 @@ window.addEventListener('scroll', function (awesomeParallax) {
     var rateJp = scrolled * 0.03;
     var ratePero = scrolled * -0.18;
 
-    target.style.transform = 'translate3d(0px,'+rateBg+'px, 0px)';
+    targetBackText.style.transform = 'translate3d(0px,'+rateBg+'px, 0px)';
     targetHead.style.transform = 'translate3d(0px,'+rateHead+'px, 0px)';
     targetSmoke.style.transform = 'translate3d(0px,'+rateSmoke+'px, 0px)';
     targetSpray.style.transform = 'translate3d(0px,'+rateSpray+'px, 0px)';
